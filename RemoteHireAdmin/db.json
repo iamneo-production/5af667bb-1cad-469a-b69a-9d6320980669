@@ -1,0 +1,30 @@
+{
+  "EmployeeList": [
+    {
+      "name": "sneha",
+      "Role": "employee",
+      "Email": "sneha@gmail.com",
+      "Password": "12345",
+      "Experience": "worked as employee",
+      "id": 1
+    },
+    {
+      "name": "sam",
+      "Role": "HR",
+      "Email": "sam@gmail.com",
+      "Password": "Q2341",
+      "Experience": "HR",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
