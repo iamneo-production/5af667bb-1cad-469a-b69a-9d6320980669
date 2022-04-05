@@ -1,0 +1,23 @@
+<div fxLayoutAlign="center center" fxFlexFill class="name" >
+    <mat-card fxFlex="30">
+      <mat-toolbar color="primary">Remote hire</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column" [formGroup]= "loginForm" >
+        <h2 align="center" style="color:red">Login</h2>
+        <div class="form-group" >
+        <mat-form-field appearance="outline" fxFlex="100" >
+          <input matInput type="email"  placeholder="Enter email" class="form-control" formControlName="email">
+         <!-- <div *ngIf="!loginForm.valid">email</div> -->
+        </mat-form-field>
+       </div>
+       <div class="form-group">
+        <mat-form-field appearance="outline" fxFlex="100">
+          <input matInput type="password" placeholder="Enter Password" class="form-control" formControlName="password">
+  
+        </mat-form-field>
+        </div>
+        <button mat-raised-button type="submit" [disabled]="!loginForm.valid" class="log" >Login </button> <br/>
+        <p align="right">new user? <a routerLink="../register">Register</a></p>
+      </form>
+      
+    </mat-card>
+  </div>
