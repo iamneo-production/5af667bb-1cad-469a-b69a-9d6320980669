@@ -1,0 +1,11 @@
+button{
+    background-color: aqua;
+    width:50%;
+    margin-left: 25%;
+}
+input.ng-invalid{
+    border-left: 3px solid  red;
+}
+input.ng-valid{
+    border-left: 3px solid green;
+}
