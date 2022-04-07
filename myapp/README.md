@@ -1,2 +1,0 @@
-# AngularApp
-Virtusa project
